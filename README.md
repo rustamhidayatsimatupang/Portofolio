@@ -1,5 +1,4 @@
-# dataanalyst
-
+# Portofolio
 
 Dalam Portofolio ini  saya menampilkan bebrapa project saya dalam bahas pemprograman Python dan R. 
 Project yang sama kerjakan yaitu:
