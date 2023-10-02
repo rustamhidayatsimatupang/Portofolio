@@ -53,6 +53,6 @@ BayesARCH<-function(burnIn=1000,nc=1,Y, a0, b1,loglik)    ##Penamaan fungsi dan 
     a=summary(List[[i]])
     print(a)}) ##MEnampilkan Hasil Estimasi Parameter
 }
-data=as.ts(read.table("D://Tugas Akhir Mila//Data Inflasi.csv")) ##Menginput Data
+data=as.ts(read.table("D://Data Inflasi.csv")) ##Menginput Data
 res=arima(data,order = c(3,1,0))$residuals[2:length(data)] ##Menentukan nilai Residual
 BayesARCH(Y=res,a0=0, b1=0,loglik= -271.4201) ##Pemanggilan Fungsi untuk memperoleh parameter dengan metode bayes
