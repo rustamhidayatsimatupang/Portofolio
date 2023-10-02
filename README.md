@@ -8,3 +8,4 @@ Project yang sama kerjakan yaitu:
 4. Estimasi Parameter Distribusi Weibull 2 dan 3 Parameter dengan Particle Swarm Optimization
 5. Uji T
 6. Klasifikasi CART
+7. Estimasi Parameter Regresi Linier Berganda dengan OLS, Jcknife dan Bootstrap
